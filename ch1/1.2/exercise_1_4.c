@@ -13,10 +13,10 @@ int main (void)
     printf("Celsius\tFahrenheit\n");
     
     celsius = lower;
-    while (lower < upper) {
+    while (celsius <= upper) {
         fahr = (celsius * 9.0 / 5.0) + 32;
-        printf("%7d%13.2f", celsius, fahr);
-        celius += step;
+        printf("%7.0f%13.2f\n", celsius, fahr);
+        celsius += step;
     }
 
     return 0;
