@@ -1,0 +1,2 @@
+There are special characters which may not have any visual representation that 
+can be viewed as a "space."
